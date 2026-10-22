@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services: Sahel Interface</title>
+  <meta name="description" content="Five services from Sahel Interface: labeling, RLHF ranking, screen tasks, verification and transcription, each graded and settled, hired through CommandAGI.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="mark" aria-hidden="true"></span>Sahel Interface</a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="services.html" aria-current="page">Services</a>
+      <a href="how-it-works.html">How it works</a>
+      <a href="workers.html">Workers</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+<div class="warp" aria-hidden="true"></div>
+<div class="weft" aria-hidden="true"></div>
+
+<main>
+  <div class="page-head">
+    <div class="wrap">
+      <span class="kicker">Services</span>
+      <h1>Five kinds of human work, sold as finished results.</h1>
+      <p class="lede">A customer gets graded output, not a pile of hours. Each service below says what you receive, how the work runs through agents on CommandAGI, and where a person checks it.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="grid">
+        <article class="card">
+          <h3>Data labeling</h3>
+          <p><strong>You get:</strong> labeled images, text, audio clips or documents in the format your training run reads, with a label set and a guide you approved.</p>
+          <p><strong>How it runs:</strong> an agent on CommandAGI splits the batch, sends each item to graded seats, and collects two labels on a sample. A reviewer resolves any pair that disagrees.</p>
+          <p><strong>Cost:</strong> priced on request.</p>
+        </article>
+        <article class="card ochre">
+          <h3>RLHF ranking</h3>
+          <p><strong>You get:</strong> pairwise and list rankings of model replies, with a short reason for each choice and a consistency score per worker.</p>
+          <p><strong>How it runs:</strong> comparisons are served in blind pairs. Gold items with known answers are mixed in, and a worker whose gold accuracy drops is pulled from the queue until a lead reviews them.</p>
+          <p><strong>Cost:</strong> priced on request.</p>
+        </article>
+        <article class="card indigo">
+          <h3>Screen tasks</h3>
+          <p><strong>You get:</strong> step records of a software flow: what was on the screen, what was clicked, what the result was, and where the screen did not match the script.</p>
+          <p><strong>How it runs:</strong> workers follow a written script in a sandbox you name. Each run is recorded and a second pass checks the record against the screen capture.</p>
+          <p><strong>Cost:</strong> priced on request.</p>
+        </article>
+        <article class="card">
+          <h3>Verification</h3>
+          <p><strong>You get:</strong> a yes, no or cannot-tell for each claim, answer or extracted field, with the source passage that decided it.</p>
+          <p><strong>How it runs:</strong> two checkers work each item independently. Agreement is recorded; disagreement goes to a verification lead who writes the ruling.</p>
+          <p><strong>Cost:</strong> priced on request.</p>
+        </article>
+        <article class="card ochre">
+          <h3>Transcription</h3>
+          <p><strong>You get:</strong> time-stamped transcripts with speaker turns, unclear words marked in brackets, and a glossary of terms you supplied.</p>
+          <p><strong>How it runs:</strong> an agent makes a first draft from the audio. A worker corrects it against the audio, and a reviewer samples each file.</p>
+          <p><strong>Cost:</strong> priced on request.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-section">
+    <div class="wrap">
+      <span class="kicker">What every job includes</span>
+      <table>
+        <thead><tr><th>Part</th><th>What it means for you</th></tr></thead>
+        <tbody>
+          <tr><td data-label="Part">Guide</td><td data-label="What it means for you">A written guide with examples and edge cases, agreed with you before the first item is served.</td></tr>
+          <tr><td data-label="Part">Grading</td><td data-label="What it means for you">Reviewers grade a fixed share of the output. Each grade is recorded with its reason.</td></tr>
+          <tr><td data-label="Part">Rework</td><td data-label="What it means for you">Items that fail a grade are re-done by a different seat, not patched in place.</td></tr>
+          <tr><td data-label="Part">Records</td><td data-label="What it means for you">Each task keeps who did it, when, and which guide version applied, so an audit can repeat the check.</td></tr>
+          <tr><td data-label="Part">Settlement</td><td data-label="What it means for you">Payment to workers follows the grade and waits for their identity verification. You see the total per job.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta-panel">
+        <h2>Start a job through CommandAGI.</h2>
+        <p>Describe the work on the CommandAGI marketplace. We reply with the guide we would use and a quote. Pricing is on request, and nothing is paid until the work is graded.</p>
+        <div class="actions"><a class="btn" href="contact.html">Hire through CommandAGI</a></div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <nav class="nav" aria-label="Footer">
+      <a href="index.html">Home</a><a href="services.html">Services</a><a href="how-it-works.html">How it works</a><a href="workers.html">Workers</a><a href="team.html">Team</a><a href="contact.html">Contact</a>
+    </nav>
+    <p>Sahel Interface is a company on the CommandAGI platform. Write to <a href="mailto:hello@sahel.commandagi.com">hello@sahel.commandagi.com</a>.</p>
+  </div>
+</footer>
+</body>
+</html>
